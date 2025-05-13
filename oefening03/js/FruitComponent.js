@@ -19,7 +19,7 @@ import FruitRepository from './FruitRepository.js';
  of gelijk is aan de geselecteerde energiewaarde weergegeven (zie fruit.png)
  */
 
-class FruitComponent {
+export default class FruitComponent {
   #fruitRepository;
 
   constructor() {
